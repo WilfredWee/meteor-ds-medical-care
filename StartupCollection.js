@@ -19,16 +19,24 @@ Meteor.startup(function() {
 
     var childId = Children.insert(initialTestChild);
 
+    var initialProblem = {
+      code: "1",
+      name: "Awakening"
+    };
+
+    var initialProblemId = Problems.insert(initialProblem);
 
     var initialTrackable = {
+      notifyAt: 200,
       promptInterval: 1440,
-      childId: childId
+      childId: childId,
+      problemId: initialProblemId,
+      isProblemForChild: true
     };
 
     var initialTrackableId = Trackables.insert(initialTrackable);
 
     var initialEvent = {
-      eventType: "BedTime",
       timeStamp: new Date(),
       trackableId: initialTrackableId
     };

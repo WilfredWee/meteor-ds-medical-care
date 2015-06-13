@@ -14,6 +14,31 @@ if (Meteor.isClient) {
       Session.set('counter', Session.get('counter') + 1);
     }
   });
+  
+  Template.chart.rendered = function() {
+    chart = {
+        target: 'chart_div',
+        type: 'LineChart',
+        columns: [
+            ['string', 'Topping'],
+            ['number', 'Slices']
+        ],
+        rows: [
+            ['Mushrooms', 3],
+            ['Onions', 1],
+            ['Olives', 1],
+            ['Zucchini', 1],
+            ['Pepperoni', 2]
+        ],
+        options: {
+            'title': 'How Much Pizza I Ate Last Night',
+            'width': 400,
+            'height': 300
+        }
+    };
+    drawChart(chart);
+}
+  
 }
 
 if (Meteor.isServer) {

@@ -6,7 +6,6 @@
 
 meteor-platform
 insecure
-simple:rest
 accounts-password
 accounts-ui
 aldeed:simple-schema
@@ -14,3 +13,5 @@ aldeed:collection2
 less
 twbs:bootstrap
 iron:router
+nimble:restivus
+rafaelhdr:google-charts

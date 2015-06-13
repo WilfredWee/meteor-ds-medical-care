@@ -5,4 +5,4 @@ Meteor.startup(function() {
     Meteor.subscribe("trackables");
     Meteor.subscribe("events");
   }
-})
+});
