@@ -106,11 +106,11 @@ var EventSchema = new SimpleSchema({
   }
 });
 
-Parents.attachSchema(ParentSchema);
-Children.attachSchema(ChildSchema);
-Trackables.attachSchema(TrackableSchema);
-Events.attachSchema(EventSchema);
-Problems.attachSchema(ProblemSchema);
+// Parents.attachSchema(ParentSchema);
+// Children.attachSchema(ChildSchema);
+// Trackables.attachSchema(TrackableSchema);
+// Events.attachSchema(EventSchema);
+// Problems.attachSchema(ProblemSchema);
 
 
 if(Meteor.isServer) {
