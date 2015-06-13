@@ -1,3 +1,6 @@
+Parents = new Mongo.Collection("parents");
+Children = new Mongo.Collection("children");
+
 var ParentSchema = new SimpleSchema({
   username: {
     type: String,
