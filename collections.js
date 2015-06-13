@@ -1,1 +1,2 @@
-SpecialUsers = new Mongo.Collection("specialUsers");
+Parents = new Mongo.Collection("parents");
+Children = new Mongo.Collection("children");

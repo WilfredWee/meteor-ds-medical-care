@@ -1,0 +1,1672 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"curren",
+				"currentRound"
+			],
+			[
+				"current",
+				"currentRoom"
+			],
+			[
+				"currentRo",
+				"currentRoundRooms"
+			],
+			[
+				"currentR",
+				"currentRound"
+			],
+			[
+				"sort",
+				"sortedGroupedTeams"
+			],
+			[
+				"getAss",
+				"getAssignedFirstRound"
+			],
+			[
+				"TEAM_TA",
+				"TEAM_TAB_CONTEXT"
+			],
+			[
+				"deba",
+				"debater"
+			],
+			[
+				"debater2",
+				"debater2Score"
+			],
+			[
+				"transf",
+				"transformCollectionToTableData"
+			],
+			[
+				"speak",
+				"speakerHeaders"
+			],
+			[
+				"rankHea",
+				"rankHeaders"
+			],
+			[
+				"rankhea",
+				"rankHeader"
+			],
+			[
+				"tournam",
+				"tournament"
+			],
+			[
+				"Tourna",
+				"Tournaments"
+			],
+			[
+				"input",
+				"inputClassName"
+			],
+			[
+				"roundInd",
+				"roundIndex"
+			],
+			[
+				"column",
+				"column"
+			],
+			[
+				"final",
+				"finalizeRoundButton"
+			],
+			[
+				"debate",
+				"debaterIndex"
+			],
+			[
+				"debater",
+				"debaters"
+			],
+			[
+				"React",
+				"React.renderComponent"
+			],
+			[
+				"location",
+				"locationId"
+			],
+			[
+				"loation",
+				"locationId"
+			],
+			[
+				"teamN",
+				"teamName2"
+			],
+			[
+				"teamNa",
+				"teamNames"
+			],
+			[
+				"Active",
+				"ActiveRoundRoomsContainer"
+			],
+			[
+				"activa",
+				"activateCurrentRound"
+			],
+			[
+				"TEAM_",
+				"TEAM_ROUND_CONTEXT"
+			],
+			[
+				"Mana",
+				"ManagementContextConstants"
+			],
+			[
+				"Man",
+				"ManagementPageContainer"
+			],
+			[
+				"Tournam",
+				"TournamentManagementContainer"
+			],
+			[
+				"Tournamen",
+				"TournamentRegistrationForm"
+			],
+			[
+				"Tourname",
+				"TournamentRegistrationForm"
+			],
+			[
+				"jUD",
+				"JUDGE_ROUND_CONTEXT"
+			],
+			[
+				"Tournament",
+				"TournamentListPageContainer"
+			],
+			[
+				"TabRegsi",
+				"TabRegistrationPageContainer"
+			],
+			[
+				"Particiap",
+				"ParticipantRegistrationPageContainer"
+			],
+			[
+				"context",
+				"containerContextType"
+			],
+			[
+				"currentRoun",
+				"currentRoundIndex"
+			],
+			[
+				"currentRou",
+				"currentRound"
+			],
+			[
+				"curre",
+				"currentRoundRooms"
+			],
+			[
+				"shuff",
+				"shuffledActiveTeams"
+			],
+			[
+				"currentRound",
+				"currentRoundRooms"
+			],
+			[
+				"_act",
+				"_activeRooms"
+			],
+			[
+				"judge",
+				"judgesNeeded"
+			],
+			[
+				"_ac",
+				"_activeTeams"
+			],
+			[
+				"_activ",
+				"_activeRooms"
+			],
+			[
+				"tourna",
+				"tournament"
+			],
+			[
+				"createR",
+				"createRoundClassName"
+			],
+			[
+				"lastRoun",
+				"lastRoundState"
+			],
+			[
+				"lastR",
+				"lastRoundIndex"
+			],
+			[
+				"owner",
+				"ownerId"
+			],
+			[
+				"roundin",
+				"newRoundIndex"
+			],
+			[
+				"newR",
+				"newRoundIndex-1"
+			],
+			[
+				"round",
+				"roundRooms"
+			],
+			[
+				"newr",
+				"newRoundIndex-1"
+			],
+			[
+				"transfor",
+				"transformTableDataRowToCollection"
+			],
+			[
+				"roundIn",
+				"roundIndex"
+			],
+			[
+				"roundIndex",
+				"currentRoundIndex"
+			],
+			[
+				"jud",
+				"judges"
+			],
+			[
+				"isActiv",
+				"isActiveThisRound"
+			],
+			[
+				"isActive",
+				"isActiveForRound"
+			],
+			[
+				"newActi",
+				"newActiveRoundObj"
+			],
+			[
+				"newA",
+				"newActiveRoundObj"
+			],
+			[
+				"newRoun",
+				"newRoundIndex"
+			],
+			[
+				"ROOM_",
+				"ROOM_CONTEXT"
+			],
+			[
+				"newRou",
+				"newRoundIndex"
+			],
+			[
+				"isActiveFor",
+				"isActiveForCurrentRound"
+			],
+			[
+				"isActiveF",
+				"isActiveForCurrentRound"
+			],
+			[
+				"compo",
+				"componentDidUpdate	Life Cycle Method"
+			],
+			[
+				"isAct",
+				"isActiveForRound"
+			],
+			[
+				"tourname",
+				"tournamentString"
+			],
+			[
+				"ROOM_CON",
+				"ROOM_CONTEXT"
+			],
+			[
+				"Hot",
+				"ManagementHot"
+			],
+			[
+				"enablePu",
+				"enablePublicRegistration"
+			],
+			[
+				"transform",
+				"transformTableDataToCollection"
+			],
+			[
+				"trans",
+				"transformTableDataToCollection"
+			],
+			[
+				"UPDATE",
+				"TEAM_UPDATE_METHOD_TYPE"
+			],
+			[
+				"tableData",
+				"tableData"
+			],
+			[
+				"next",
+				"nextState"
+			],
+			[
+				"transF",
+				"transformCollectionToTableData"
+			],
+			[
+				"transfo",
+				"transformTableDataToCollection"
+			],
+			[
+				"allowRem",
+				"allowRemoveRow"
+			],
+			[
+				"create",
+				"createClass"
+			],
+			[
+				"Tourn",
+				"TournamentManagementContainer"
+			],
+			[
+				"enablePub",
+				"enablePublicRegistrationState"
+			],
+			[
+				"insti",
+				"institutionName"
+			],
+			[
+				"Judge",
+				"JudgeRegistrationForm"
+			],
+			[
+				"regis",
+				"registerJudge"
+			],
+			[
+				"regi",
+				"registerTeam"
+			],
+			[
+				"Jud",
+				"JudgeRegistrationForm"
+			],
+			[
+				"debat",
+				"debaterName2"
+			],
+			[
+				"hand",
+				"handleRegisterJudge"
+			],
+			[
+				"start",
+				"startMeteorSubscriptions"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"TabRegi",
+				"TabRegistrationForm"
+			],
+			[
+				"TabReg",
+				"TabRegistrationPageContainer"
+			],
+			[
+				"user",
+				"userLoginButtonComponent"
+			],
+			[
+				"tou",
+				"tournamentId"
+			],
+			[
+				"data",
+				"dataSchema"
+			],
+			[
+				"RE",
+				"REGISTER_TEAMS_SCHEMA"
+			],
+			[
+				"Han",
+				"HandsOnTableComponent"
+			],
+			[
+				"find",
+				"findDOMNode"
+			],
+			[
+				"crea",
+				"createHandsonTable"
+			],
+			[
+				"Tour",
+				"TournamentRegistrationForm"
+			],
+			[
+				"template",
+				"templateName"
+			],
+			[
+				"Commen",
+				"CommentBox"
+			],
+			[
+				"Comme",
+				"CommentList"
+			],
+			[
+				"goC",
+				"goCountList"
+			],
+			[
+				"deb",
+				"debaterCreateResponse	statement"
+			],
+			[
+				"sta",
+				"status_code"
+			],
+			[
+				"teammate2",
+				"teammate2CreateResponse	statement"
+			],
+			[
+				"teammate1",
+				"teammate1CreateResponse	statement"
+			],
+			[
+				"teamm",
+				"teammateCreateResponse	statement"
+			],
+			[
+				"random",
+				"randomRange	statement"
+			],
+			[
+				"tea",
+				"teammate2ID	statement"
+			],
+			[
+				"teamma",
+				"teammateID	statement"
+			],
+			[
+				"djs",
+				"djsNoJudge	statement"
+			],
+			[
+				"rele",
+				"relevantDebatersCount	param"
+			],
+			[
+				"doubl",
+				"doubleRotateLeft"
+			],
+			[
+				"rotate",
+				"rotateLeft"
+			],
+			[
+				"right",
+				"rightHeight"
+			],
+			[
+				"righ",
+				"rightHeight"
+			],
+			[
+				"left",
+				"leftHeight"
+			],
+			[
+				"ran",
+				"randint"
+			],
+			[
+				"qu",
+				"queue_dequeue"
+			],
+			[
+				"ar",
+				"argsv"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "collections.js",
+			"settings":
+			{
+				"buffer_size": 53,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "meteor-ds-medical-care.html",
+			"settings":
+			{
+				"buffer_size": 257,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 88.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"packageresou",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"jsx",
+				"Set Syntax: JSX"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"list",
+				"Package Control: List Unmanaged Packages"
+			],
+			[
+				"lis",
+				"Package Control: List Packages"
+			],
+			[
+				"json",
+				"JSON Reindent: reindent file or selection"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"coffee",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"coff",
+				"CoffeeToJs: Convert clipboard content"
+			],
+			[
+				"text",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"javascr",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"emme",
+				"Emmet: Match Pair (outward)"
+			],
+			[
+				"emmet",
+				"Emmet: Match Pair (inward)"
+			],
+			[
+				"jso",
+				"Set Syntax: JSON"
+			],
+			[
+				"spaces",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"python",
+				"Set Syntax: Python"
+			],
+			[
+				"ssr",
+				"Set Syntax: R"
+			],
+			[
+				"html	",
+				"Set Syntax: HTML (Angular.js)"
+			],
+			[
+				"ssc",
+				"Set Syntax: C"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"gitpush",
+				"Git: Push"
+			],
+			[
+				"gitquick",
+				"Git: Quick Commit"
+			],
+			[
+				"git",
+				"Git: Status"
+			],
+			[
+				"gitco",
+				"Git: Commit"
+			],
+			[
+				"git com",
+				"Git: Commit"
+			],
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"ssvb",
+				"Set Syntax: VBScript"
+			],
+			[
+				"instla",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Disable Package"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"sspy	",
+				"Set Syntax: Python"
+			],
+			[
+				"ssv",
+				"Set Syntax: VBScript"
+			],
+			[
+				"ss",
+				"Set Syntax: VBScript"
+			],
+			[
+				"qui",
+				"Git: Quick Commit"
+			],
+			[
+				"quic",
+				"Git: Quick Commit"
+			],
+			[
+				"quick",
+				"Git: Quick Commit"
+			],
+			[
+				"sssq",
+				"Set Syntax: SQL"
+			],
+			[
+				"quik",
+				"Git: Quick Commit"
+			],
+			[
+				"git:co",
+				"Git: Quick Commit"
+			],
+			[
+				"pytho",
+				"Set Syntax: Python"
+			],
+			[
+				"git:push",
+				"Git: Push Current Branch"
+			],
+			[
+				"gitgui",
+				"Git: Gui"
+			],
+			[
+				"git:quic",
+				"Git: Quick Commit"
+			],
+			[
+				"git:",
+				"Git: Add Current File"
+			],
+			[
+				"git:qui",
+				"Git: Quick Commit"
+			],
+			[
+				"git:ad",
+				"Git: Add Current File"
+			],
+			[
+				"git:com",
+				"Git: Commit history"
+			],
+			[
+				"git:res",
+				"Git: Reset (hard) HEAD"
+			],
+			[
+				"git:tog",
+				"Git: Toggle Annotations"
+			],
+			[
+				"git:pu",
+				"Git: Push"
+			],
+			[
+				"git:quick",
+				"Git: Quick Commit"
+			],
+			[
+				"git:fet",
+				"Git: Fetch"
+			],
+			[
+				"gita",
+				"Git: Add Current File"
+			],
+			[
+				"git:pull",
+				"Git: Pull"
+			],
+			[
+				"git:pus",
+				"Git: Push"
+			],
+			[
+				"gitc",
+				"Git: Commit"
+			],
+			[
+				"git:add",
+				"Git: Add Current File"
+			],
+			[
+				"gitadd",
+				"Git: Add Current File"
+			],
+			[
+				"git:a",
+				"Git: Add Current File"
+			],
+			[
+				"git:am",
+				"Git: Amend Commit"
+			],
+			[
+				"git: bla",
+				"Git: Blame"
+			],
+			[
+				"git: dif",
+				"Git: Diff All"
+			],
+			[
+				"git:gui",
+				"Git: Gui"
+			],
+			[
+				"git:log",
+				"Git: Log All"
+			],
+			[
+				"log",
+				"Git: Log Current File"
+			],
+			[
+				"git: push",
+				"Git: Push"
+			],
+			[
+				"git:sta",
+				"Git: Status"
+			],
+			[
+				"git:comm	",
+				"Git: Commit"
+			],
+			[
+				"git:fe",
+				"Git: Fetch"
+			],
+			[
+				"git: com",
+				"Git: Commit"
+			],
+			[
+				"git:status",
+				"Git: Status"
+			],
+			[
+				"git:c",
+				"Git: Commit"
+			],
+			[
+				"GIT:",
+				"Git: Commit history"
+			],
+			[
+				"inden",
+				"Indent JSON"
+			],
+			[
+				"ssjava",
+				"Set Syntax: Java"
+			],
+			[
+				"ssjaca",
+				"Set Syntax: JavaScript (Rails)"
+			],
+			[
+				"ssjson",
+				"Set Syntax: JSON"
+			],
+			[
+				"key ",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"go to",
+				"Subclim: Go to Definition"
+			],
+			[
+				"package control: remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"subclim",
+				"Subclim: Go to Definition"
+			],
+			[
+				"sublme",
+				"SublimeLinter: Extract Annotations"
+			],
+			[
+				"sublimelinter",
+				"Preferences: SublimeLinter Settings – Default"
+			],
+			[
+				"package control: instal",
+				"Package Control: Install Package"
+			],
+			[
+				"eclim",
+				"Subclim: Set Eclim executable path"
+			],
+			[
+				"set ecl",
+				"Subclim: Set Eclim executable path"
+			],
+			[
+				"set eclim",
+				"Subclim: Set Eclim executable path"
+			],
+			[
+				"set clim",
+				"Subclim: Set Eclim executable path"
+			],
+			[
+				"package control: disable pack",
+				"Package Control: Disable Package"
+			],
+			[
+				"package control:ins",
+				"Package Control: Install Package"
+			],
+			[
+				"package control:inst",
+				"Package Control: Install Package"
+			],
+			[
+				"inde",
+				"Indent XML"
+			],
+			[
+				"package control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"ssxml",
+				"Set Syntax: XML"
+			],
+			[
+				"instal	",
+				"Package Control: Install Package"
+			],
+			[
+				"Install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 384.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			"import urllib.request,os,sys; exec(\"if sys.version_info < (3,) or os.name != 'nt': raise OSError('This code is for Windows ST3 only!')\"); pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')",
+			" import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": true,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/C/Users/WilfredAdmin/Documents/GitHub/meteor-ds-medical-care/meteor-ds-medical-care.css",
+		"/C/Users/WilfredAdmin/Documents/GitHub/ds-medical-care/.gitignore",
+		"/C/Users/WilfredAdmin/Documents/GitHub/meteor-ds-medical-care/meteor-ds-medical-care.js",
+		"/C/Users/WilfredAdmin/Documents/GitHub/meteor-ds-medical-care/meteor-ds-medical-care.html",
+		"/C/Users/WilfredAdmin/Documents/GitHub/ds-medical-care/gitignore.txt",
+		"/C/Users/WilfredAdmin/Documents/GitHub/ds-medical-care/ds_medical_care/settings.py",
+		"/C/Users/WilfredAdmin/Documents/GitHub/ds-medical-care/ds_medical_care/ds_medical_care_app/serializers.py",
+		"/C/Users/WilfredAdmin/Documents/GitHub/ds-medical-care/ds_medical_care/ds_medical_care_app/urls.py",
+		"/C/Users/WilfredAdmin/Documents/GitHub/ds-medical-care/ds_medical_care/urls.py",
+		"/C/Python/ds-medical-care/Scripts/django-admin.py",
+		"/C/Users/WilfredAdmin/Documents/GitHub/ds-medical-care/ds_medical_care/ds_medical_care_app/views.py",
+		"/C/Users/WilfredAdmin/Documents/GitHub/declash-tournament/client/constants/ManagementContextConstants.js",
+		"/C/Users/WilfredAdmin/Documents/GitHub/declash-tournament/methods/TournamentManagementMethods.js",
+		"/C/Users/WilfredAdmin/Desktop/REAL Backup Debaters - DeClash.json",
+		"/C/Users/WilfredAdmin/Desktop/react.js",
+		"/C/Users/WilfredAdmin/Desktop/node test.js",
+		"/C/Users/WilfredAdmin/Desktop/New Text Document (3).txt",
+		"/C/Users/WilfredAdmin/Desktop/debaters.html",
+		"/C/Users/WilfredAdmin/Documents/GitHub/declash-tournament/AssignmentAlgorithm.js",
+		"/C/Users/WilfredAdmin/Documents/GitHub/declash-tournament/helpers/ValidatorHelper.js",
+		"/C/Users/WilfredAdmin/Documents/GitHub/declash-tournament/helpers/InvariantChecker.js",
+		"/C/Users/WilfredAdmin/Documents/GitHub/declash-tournament/methods/Observations.js",
+		"/C/Users/WilfredAdmin/Documents/GitHub/declash-tournament/helpers/AfterMethodsFunctions.js",
+		"/C/Users/WilfredAdmin/Documents/GitHub/declash-tournament/server/Schemas.js",
+		"/C/Users/WilfredAdmin/Documents/GitHub/declash-tournament/methods/RegistrationMethods.js",
+		"/C/Users/WilfredAdmin/Documents/GitHub/declash-tournament/helpers/SchemaHelpers.js",
+		"/C/Users/WilfredAdmin/Documents/GitHub/declash-tournament/client/lib/semantic-ui/definitions/globals/reset.less",
+		"/C/Users/WilfredAdmin/Documents/GitHub/declash-tournament/client/templates/TournamentManagementContainer.jsx",
+		"/C/Users/WilfredAdmin/AppData/Roaming/Sublime Text 3/Packages/JSX/React-createClass.sublime-snippet",
+		"/C/Users/WilfredAdmin/AppData/Roaming/Sublime Text 3/Packages/JSX/propTypes.sublime-snippet",
+		"/C/Users/WilfredAdmin/AppData/Roaming/Sublime Text 3/Packages/JSX/LifeCycle-shouldComponentUpdate.sublime-snippet",
+		"/C/Users/WilfredAdmin/AppData/Roaming/Sublime Text 3/Packages/JSX/LifeCycle-getInitialState.sublime-snippet",
+		"/C/Users/WilfredAdmin/AppData/Roaming/Sublime Text 3/Packages/JSX/LifeCycle-getDefaultProps.sublime-snippet",
+		"/C/Users/WilfredAdmin/AppData/Roaming/Sublime Text 3/Packages/JSX/LifeCycle-componentWillUnmount.sublime-snippet",
+		"/C/Users/WilfredAdmin/AppData/Roaming/Sublime Text 3/Packages/JSX/LifeCycle-componentWillReceiveProps.sublime-snippet",
+		"/C/Users/WilfredAdmin/AppData/Roaming/Sublime Text 3/Packages/JSX/LifeCycle-componentWillUpdate.sublime-snippet",
+		"/C/Users/WilfredAdmin/AppData/Roaming/Sublime Text 3/Packages/JSX/LifeCycle-componentDidMount.sublime-snippet",
+		"/C/Users/WilfredAdmin/AppData/Roaming/Sublime Text 3/Packages/JSX/LifeCycle-componentDidUpdate.sublime-snippet",
+		"/C/Users/WilfredAdmin/AppData/Roaming/Sublime Text 3/Packages/JSX/LifeCycle-componentWillMount.sublime-snippet",
+		"/C/Users/WilfredAdmin/AppData/Roaming/Sublime Text 3/Packages/User/JSX.sublime-settings",
+		"/C/Users/WilfredAdmin/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/WilfredAdmin/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/WilfredAdmin/Documents/GitHub/declash-tournament/.meteor/.gitignore",
+		"/C/Users/WilfredAdmin/Documents/GitHub/declash-tournament/.gitignore",
+		"/C/Users/WilfredAdmin/Documents/GitHub/declash-tournament/client/templates/TournamentRegistrationForm.jsx",
+		"/C/Users/WilfredAdmin/Desktop/lolol.js",
+		"/C/Users/WilfredAdmin/Desktop/New folder/lolol.js",
+		"/C/Users/WilfredAdmin/Desktop/New folder/output.json",
+		"/C/Users/WilfredAdmin/Desktop/New folder/convertcsv.json",
+		"/C/Users/WilfredAdmin/Documents/GitHub/declash-tournament/client/stylesheets/input-custom.css",
+		"/C/Users/WilfredAdmin/Documents/GitHub/declash-tournament/.jshintrc",
+		"/C/Users/WilfredAdmin/Desktop/SOMETHING.csv",
+		"/C/Users/WilfredAdmin/Documents/GitHub/declash-tournament/.jshintignore",
+		"/C/Users/WilfredAdmin/Documents/GitHub/declash-tournament/server/Publications.js",
+		"/C/Users/WilfredAdmin/Documents/GitHub/declash-tournament/client/lib/first-party/Subscriptions.js",
+		"/C/Users/WilfredAdmin/Documents/GitHub/declash-tournament/lib/first-party/Namespaces.js",
+		"/C/Users/WilfredAdmin/Documents/GitHub/declash-tournament/collections/collections.js",
+		"/C/Users/WilfredAdmin/.gitconfig",
+		"/C/Users/WilfredAdmin/Documents/GitHub/declash-tournament/client/templates/pages/ManagementPage.jsx",
+		"/C/Users/WilfredAdmin/Documents/GitHub/declash-tournament/client/templates/pages/HomePage.jsx",
+		"/C/Users/WilfredAdmin/Documents/GitHub/declash-tournament/client/router.jsx",
+		"/C/Users/WilfredAdmin/Documents/GitHub/declash-tournament/client/templates/pages/ParticipantRegistrationPage.jsx",
+		"/C/Users/WilfredAdmin/Documents/GitHub/declash-tournament/client/templates/Base.jsx",
+		"/C/Users/WilfredAdmin/Documents/GitHub/declash-tournament/client/templates/base.html",
+		"/C/Users/WilfredAdmin/Documents/GitHub/declash-tournament/client/templates/pages/ParticipantRegistration.jsx",
+		"/C/Users/WilfredAdmin/Documents/GitHub/declash-tournament/client/templates/pages/TabRegistration.jsx",
+		"/C/Users/WilfredAdmin/Documents/GitHub/declash-tournament/client/templates/pages/Tournaments.jsx",
+		"/C/Users/WilfredAdmin/Documents/GitHub/declash-tournament/client/templates/pages/home.jsx",
+		"/C/Users/WilfredAdmin/Documents/GitHub/declash-tournament/client/templates/pages/Login.jsx",
+		"/C/Users/WilfredAdmin/Documents/GitHub/declash-tournament/client/templates/Management.jsx",
+		"/C/Users/WilfredAdmin/Documents/GitHub/declash-tournament/methods/AfterMethodsFunctions.js",
+		"/C/Users/WilfredAdmin/Documents/GitHub/declash-tournament/invariants/InvariantChecker.js",
+		"/C/Users/WilfredAdmin/Documents/GitHub/declash-tournament/client/templates/Tournaments.jsx",
+		"/C/Users/WilfredAdmin/Documents/GitHub/declash-tournament/client/templates/TabRegistration.jsx",
+		"/C/Users/WilfredAdmin/Documents/GitHub/declash-tournament/client/templates/ParticipantRegistration.jsx",
+		"/C/Users/WilfredAdmin/Documents/GitHub/declash-tournament/client/templates/Login.jsx",
+		"/C/Users/WilfredAdmin/Documents/GitHub/declash-tournament/client/templates/home.jsx",
+		"/C/Users/WilfredAdmin/Documents/GitHub/declash-tournament/server/publications.js",
+		"/C/Users/WilfredAdmin/Documents/GitHub/meteor-react-with-iron-router/lib/router.js",
+		"/C/Users/WilfredAdmin/Documents/GitHub/LEAPMacro/.gitignore",
+		"/C/Users/WilfredAdmin/Documents/GitHub/meteor-react-with-iron-router/lib/lists.js",
+		"/C/Users/WilfredAdmin/Documents/GitHub/meteor-react-with-iron-router/client/components/displayList.jsx",
+		"/C/Users/WilfredAdmin/Documents/GitHub/meteor-react-with-iron-router/client/components/listItem.jsx",
+		"/C/Users/WilfredAdmin/Documents/GitHub/meteor-react-with-iron-router/client/index.html",
+		"/C/Users/WilfredAdmin/Documents/GitHub/meteor-react-with-iron-router/client/list.html",
+		"/C/Users/WilfredAdmin/Documents/GitHub/meteor-react-with-iron-router/client/loading.html",
+		"/C/Users/WilfredAdmin/Documents/GitHub/meteor-react-with-iron-router/client/components/listTitle.jsx",
+		"/C/Users/WilfredAdmin/Documents/GitHub/meteor-react-with-iron-router/client/home.html",
+		"/C/Users/WilfredAdmin/Documents/GitHub/meteor-react-with-iron-router/client/main.css",
+		"/C/Users/WilfredAdmin/Documents/GitHub/meteor-react-with-iron-router/client/list.js",
+		"/C/Users/WilfredAdmin/Documents/GitHub/declash-tournament/client/templates/base.jsx",
+		"/C/Users/WilfredAdmin/Desktop/declash login info.txt",
+		"/C/Users/WilfredAdmin/Documents/GitHub/declash-tournament/Schemas.js",
+		"/C/Users/WilfredAdmin/Documents/GitHub/declash-tournament/server/CollectionInvariantChecks.js",
+		"/C/Users/WilfredAdmin/Documents/GitHub/declash-tournament/methods/Schemas.js",
+		"/C/Users/WilfredAdmin/Downloads/Comparative Results for Period 0.xls",
+		"/C/Users/WilfredAdmin/Documents/GitHub/declash-tournament/declash-tournament.sublime-project",
+		"/C/Users/WilfredAdmin/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/WilfredAdmin/Documents/GitHub/declash-tournament/README.md",
+		"/C/Users/WilfredAdmin/Documents/GitHub/declash-tournament/client/stylesheets/base.css",
+		"/C/Users/WilfredAdmin/Documents/GitHub/declash-tournament/client/templates/custom.css",
+		"/C/Users/WilfredAdmin/Documents/Code Projects/react-tutorial/public/scripts/example.js",
+		"/C/Users/WilfredAdmin/Desktop/handsontable example gist.js",
+		"/C/Users/WilfredAdmin/Documents/GitHub/declash-tournament/packages/react-meteor/src/inject-react.js",
+		"/C/Users/WilfredAdmin/Documents/GitHub/declash-tournament/packages/react-meteor/package.js",
+		"/C/Users/WilfredAdmin/Documents/GitHub/declash-tournament/packages/react-meteor/react-tests.js",
+		"/C/Users/WilfredAdmin/Documents/GitHub/declash-tournament/packages/react-meteor/src/ReactMeteor.js",
+		"/C/Users/WilfredAdmin/Documents/GitHub/declash-tournament/packages/react-meteor/src/require-react.js",
+		"/C/Users/WilfredAdmin/Documents/GitHub/declash-tournament/client/router.js",
+		"/C/Users/WilfredAdmin/Documents/GitHub/declash-tournament/client/templates/home.html",
+		"/C/Users/WilfredAdmin/Documents/GitHub/DeClash_Proj/DeClash/DeClash/templates/rocketscience/index.html",
+		"/C/Users/WilfredAdmin/Documents/GitHub/DeClash_Proj/DeClash/DeClash/static/app/partials/sessions.html",
+		"/C/Users/WilfredAdmin/Documents/GitHub/DeClash_Proj/DeClash/DeClash/static/app/partials/temp.html",
+		"/C/Users/WilfredAdmin/Documents/GitHub/DeClash_Proj/DeClash/DeClash/static/app/partials/landing.html",
+		"/C/Users/WilfredAdmin/Documents/Test Temp/Data/teams1-main.xml",
+		"/C/Users/WilfredAdmin/Documents/Test Temp/Data/adjudicators1-main.xml",
+		"/C/Users/WilfredAdmin/Documents/Test Temp/autoscroll.js",
+		"/C/Users/WilfredAdmin/Documents/GitHub/declash-tournament/client/lib/firstparty",
+		"/C/Users/WilfredAdmin/Documents/GitHub/declash-tournament/client/templates/HandsOnTableContainer.jsx",
+		"/C/Users/WilfredAdmin/Downloads/handsontable-0.15.0-beta2/dist/handsontable.full.js",
+		"/C/Users/WilfredAdmin/Downloads/handsontable-0.15.0-beta2/dist/handsontable.js",
+		"/C/Users/WilfredAdmin/Downloads/handsontable-0.15.0-beta2/dist/handsontable.full.min.js",
+		"/C/Users/WilfredAdmin/Documents/GitHub/declash-tournament/client/templates/Management.html",
+		"/C/Users/WilfredAdmin/Documents/GitHub/declash-tournament/client/templates/home.js",
+		"/C/Users/WilfredAdmin/Documents/GitHub/declash-tournament/client/templates/base.js",
+		"/C/Users/WilfredAdmin/Documents/GitHub/declash-tournament/client/declash-tournament.js",
+		"/C/Users/WilfredAdmin/Documents/GitHub/declash-tournament/client/declash-tournament.html",
+		"/C/Users/WilfredAdmin/Documents/GitHub/declash-tournament/client/templates/TabRegistration.html"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 100.0,
+		"where_history":
+		[
+			"<project>, -lib/*, -.meteor/*",
+			"<project>",
+			"<project>, -.meteor/*, -lib/*",
+			"<project>, -.meteor/*"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"unimplemented",
+			"getassignedfirst",
+			"ignore",
+			"roundToAssign",
+			"roomschema",
+			")()",
+			"teams",
+			"roomschema",
+			"canEdit",
+			"_.sort",
+			"var tabhot",
+			"getCleanNumber",
+			"tabhot",
+			"tabhotcont",
+			"team",
+			"rankObj",
+			"prev",
+			"getTotalFromRound",
+			"column",
+			"rankObj",
+			"var tabhot",
+			"managementhot",
+			": undefined",
+			"checkinvariantsbeforeassign",
+			"invariantchecker",
+			"_.find",
+			"changeTeamResult",
+			"tournament.round[",
+			"currentRoundIndex",
+			"changeTeamResult",
+			"this.props",
+			"activeroomcompon",
+			"change",
+			"readonly",
+			"finalizeroundbutton",
+			"finalizeroundbuttons",
+			"finalizeround",
+			"everyTeamHasResult",
+			"finalizecurrentround",
+			"meteor.error",
+			"roundsche",
+			"assignButton",
+			"roundhotcon",
+			"rondhotcontainer",
+			"roundhotcontai",
+			".props.roundIndex",
+			"roundhotcon",
+			"props.roundIndex",
+			"deleteround",
+			"RoundHotContainer",
+			"changeJudgeRank",
+			"activeroom",
+			"this.state",
+			"getRoleValuePair",
+			"activeroom",
+			"ref",
+			"default",
+			"value",
+			"team",
+			"console",
+			"connectdroppable",
+			"getdragdata",
+			"judgecomponent",
+			"connectdraggable",
+			"connectDroppable",
+			"roomcomponent",
+			"default",
+			"onchange",
+			"$\"",
+			"teams.$",
+			"team",
+			"changeTeamResult",
+			"activeroomcom",
+			"RoomComponent",
+			"roomcomponent",
+			"roundhot",
+			"_type",
+			"room_context_type",
+			"ActiveRoomComponent",
+			"stackable",
+			"changeResult",
+			"activeroundrooms",
+			"seven",
+			"nine",
+			"activeroundroo",
+			"stackable",
+			"five",
+			"eleven",
+			"activeround",
+			"teamName",
+			"teamNames",
+			"team1",
+			"teamName1",
+			"getSchemaInjectedRounds",
+			"filteredroomids",
+			"ui input",
+			"OOTeam",
+			"Placeholder",
+			"this.props.",
+			"this.props.j",
+			"canchangejudgeroom",
+			"renderTeamsForRoom",
+			"debaterschema",
+			"roomcomponent",
+			"RoomComponent",
+			"RoundRoomsContainer",
+			"connectDrop",
+			"onmousemove",
+			"connectDraggable",
+			"judgecomponent",
+			"changejudgeroom",
+			"changeJudgeRoom",
+			"canchangejud",
+			"readonly",
+			"sometable",
+			"delete round",
+			"assignround",
+			"assign",
+			"window",
+			"checkInvariantsBeforeAssign",
+			"invariantchecker",
+			"declashapp",
+			"ManagementContextConstants",
+			"DeclashApp",
+			"managementcontextcons",
+			"client.globals",
+			"declashapp.client",
+			"managementcontextglobal"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "collections.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 53,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								53,
+								53
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "meteor-ds-medical-care.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 257,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								115,
+								115
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 86.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 58.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 98.0
+	},
+	"pinned_build_system": "",
+	"project": "meteor-ds-medical-care.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"valida",
+				"helpers\\ValidatorHelper.js"
+			],
+			[
+				"constan",
+				"client\\constants\\ManagementContextConstants.js"
+			],
+			[
+				"tourna",
+				"methods\\TournamentManagementMethods.js"
+			],
+			[
+				"schem",
+				"server\\Schemas.js"
+			],
+			[
+				"ass",
+				"AssignmentAlgorithm.js"
+			],
+			[
+				"v",
+				"helpers\\ValidatorHelper.js"
+			],
+			[
+				"tour",
+				"methods\\TournamentManagementMethods.js"
+			],
+			[
+				"vali",
+				"helpers\\ValidatorHelper.js"
+			],
+			[
+				"invar",
+				"helpers\\InvariantChecker.js"
+			],
+			[
+				"assi",
+				"AssignmentAlgorithm.js"
+			],
+			[
+				"sche",
+				"server\\Schemas.js"
+			],
+			[
+				"tourn",
+				"methods\\TournamentManagementMethods.js"
+			],
+			[
+				"schemahel",
+				"helpers\\SchemaHelpers.js"
+			],
+			[
+				"regis",
+				"methods\\RegistrationMethods.js"
+			],
+			[
+				"res",
+				"client\\lib\\semantic-ui\\definitions\\globals\\reset.less"
+			],
+			[
+				"tou",
+				"client\\templates\\TournamentManagementContainer.jsx"
+			],
+			[
+				"to",
+				"client\\templates\\TournamentManagementContainer.jsx"
+			],
+			[
+				"valda",
+				"helpers\\ValidatorHelper.js"
+			],
+			[
+				"tournamregis",
+				"client\\templates\\TournamentRegistrationForm.jsx"
+			],
+			[
+				"consta",
+				"client\\constants\\ManagementContextConstants.js"
+			],
+			[
+				"col",
+				"collections\\collections.js"
+			],
+			[
+				"collec",
+				"collections\\collections.js"
+			],
+			[
+				"publi",
+				"server\\publications.js"
+			],
+			[
+				"nam",
+				"lib\\first-party\\Namespaces.js"
+			],
+			[
+				"pu",
+				"server\\Publications.js"
+			],
+			[
+				"part",
+				"client\\templates\\pages\\ParticipantRegistration.jsx"
+			],
+			[
+				"router",
+				"client\\router.jsx"
+			],
+			[
+				"home",
+				"client\\templates\\pages\\home.jsx"
+			],
+			[
+				"nama",
+				"lib\\first-party\\Namespaces.js"
+			],
+			[
+				"mana",
+				"client\\templates\\Management.jsx"
+			],
+			[
+				"namesp",
+				"lib\\first-party\\Namespaces.js"
+			],
+			[
+				"name",
+				"lib\\first-party\\Namespaces.js"
+			],
+			[
+				"schema",
+				"server\\Schemas.js"
+			],
+			[
+				"validat",
+				"helpers\\ValidatorHelper.js"
+			],
+			[
+				"sch",
+				"server\\Schemas.js"
+			],
+			[
+				"schme",
+				"server\\Schemas.js"
+			],
+			[
+				"inva",
+				"invariants\\InvariantChecker.js"
+			],
+			[
+				"after",
+				"methods\\AfterMethodsFunctions.js"
+			],
+			[
+				"inv",
+				"invariants\\InvariantChecker.js"
+			],
+			[
+				"invaria",
+				"invariants\\InvariantChecker.js"
+			],
+			[
+				"coll",
+				"methods\\CollectionInvariantChecks.js"
+			],
+			[
+				"s",
+				"server\\Schemas.js"
+			],
+			[
+				"tournan",
+				"methods\\TournamentManagementMethods.js"
+			],
+			[
+				"regist",
+				"methods\\RegistrationMethods.js"
+			],
+			[
+				"registra",
+				"methods\\RegistrationMethods.js"
+			],
+			[
+				"schemas",
+				"server\\Schemas.js"
+			],
+			[
+				"publ",
+				"server\\publications.js"
+			],
+			[
+				"parti",
+				"client\\templates\\ParticipantRegistration.jsx"
+			],
+			[
+				"method",
+				"methods\\RegistrationMethods.js"
+			],
+			[
+				"ma",
+				"client\\templates\\Management.jsx"
+			],
+			[
+				"login",
+				"client\\templates\\Login.jsx"
+			],
+			[
+				"bas",
+				"client\\templates\\base.jsx"
+			],
+			[
+				"route",
+				"client\\router.js"
+			],
+			[
+				"rout",
+				"client\\router.js"
+			],
+			[
+				"back",
+				"namespace BackgroundUpdate"
+			],
+			[
+				"ftpsize",
+				"/C/Users/WilfredAdmin/Desktop/ftpsize.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 233.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
