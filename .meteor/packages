@@ -11,3 +11,4 @@ accounts-ui
 aldeed:simple-schema
 aldeed:collection2
 nimble:restivus
+iron:router
