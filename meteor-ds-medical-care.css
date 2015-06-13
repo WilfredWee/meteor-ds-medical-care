@@ -1,1 +1,41 @@
 /* CSS declarations go here */
+body{
+	background-color: #dfdfdf;
+}
+
+html, body, .container{
+    height: 100%;
+}
+
+.container{
+    display: table;
+    vertical-align: middle;
+}
+
+.vertical-center-row{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.profile-container{
+	margin: 20px;
+	padding: 20px;
+	border: 1px solid #E6E6E6;
+	border-radius: 10px;
+	background-color: #FFFFFF;
+	box-shadow: 1px 1px 5px #888888;
+}
+
+.profile-picture{
+	border: 1px solid #E6E6E6;
+	max-height: 250px;
+	max-width: 250px;
+}
+
+.last-updated{
+	opacity: 0.5;
+}
+
+.information{
+	font-size: 20px;
+}
