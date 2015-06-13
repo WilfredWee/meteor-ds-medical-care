@@ -2,7 +2,7 @@ Parents = new Mongo.Collection("parents");
 Children = new Mongo.Collection("children");
 Trackables = new Mongo.Collection("trackables");
 Events = new Mongo.Collection("events");
-
+Problems = new Mongo.Collection("problems");
 
 var ParentSchema = new SimpleSchema({
   username: {
@@ -49,12 +49,28 @@ var ChildSchema = new SimpleSchema({
 
   bedTime: {
     type: Number,
-    label: "set bed time of child, in 24hr format"
-  },
+    label: "bed time represented as minutes in a day"
+  }
+});
 
+var ProblemSchema = new SimpleSchema({
+   code: {
+    type: String,
+    label: "Problem Code"
+   },
+
+   name: {
+    type: String,
+    label: "Problem Name"
+   }
 });
 
 var TrackableSchema = new SimpleSchema({
+  notifyAt:{
+    type: Number,
+    label: "Time represented as minutes in a day"
+  },
+
   promptInterval: {
     type: Number,
     label: "interval to prompt the event, in minutes"
@@ -63,18 +79,22 @@ var TrackableSchema = new SimpleSchema({
   childId: {
     type: String,
     label: "id of the child the trackable relates to"
+  },
+
+  problemId: {
+    type: String,
+    label: "problem unique identifier"
+  },
+
+  isProblemForChild: {
+    type: Boolean,
+    label: "Does the problem exist for the child"
   }
 });
 
 // For now, we add relevant fields/events into an Event object
 // we implicitly set the rules for now.
 var EventSchema = new SimpleSchema({
-  eventType: {
-    type: String,
-    label: "type of an event. Any object that extends event.",
-    allowedValues: ["Awakening", "BedTime"]
-  },
-
   timeStamp: {
     type: Date,
     label: "time stamp of a trackable event."
@@ -90,3 +110,18 @@ Parents.attachSchema(ParentSchema);
 Children.attachSchema(ChildSchema);
 Trackables.attachSchema(TrackableSchema);
 Events.attachSchema(EventSchema);
+Problems.attachSchema(ProblemSchema);
+
+
+if(Meteor.isServer) {
+  Restivus.configure({
+    useAuth: false,
+    prettyJson: true
+  });
+
+  Restivus.addCollection(Parents);
+  Restivus.addCollection(Children);
+  Restivus.addCollection(Trackables);
+  Restivus.addCollection(Events);
+  Restivus.addCollection(Problems);
+}
