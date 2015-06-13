@@ -12,7 +12,5 @@ accounts-ui
 aldeed:simple-schema
 aldeed:collection2
 less
-nemo64:bootstrap
-bootstrap
 twbs:bootstrap
 iron:router
