@@ -1,5 +1,5 @@
 Meteor.startup(function() {
-  if(Parents.find().fetch().length === 0) {
+  // if(Parents.find().fetch().length === 0) {
     var initialTestParent = {
       username: "TestParent",
       password: "pass",
@@ -14,18 +14,26 @@ Meteor.startup(function() {
       dob: new Date(),
       gender: "Male",
       parentId: parentId,
-      bedTime: 22,
-      trackables: [{
-        events: [{
-          eventType: "BedTime",
-
-          timeStamp: new Date()
-        }],
-
-        promptInterval: 1440
-      }]
+      bedTime: 22
     };
 
     var childId = Children.insert(initialTestChild);
-  }
+
+
+    var initialTrackable = {
+      promptInterval: 1440,
+      childId: childId
+    };
+
+    var initialTrackableId = Trackables.insert(initialTrackable);
+
+    var initialEvent = {
+      eventType: "BedTime",
+      timeStamp: new Date(),
+      trackableId: initialTrackableId
+    };
+
+    var initialEventId = Events.insert(initialEvent);
+
+  // }
 });

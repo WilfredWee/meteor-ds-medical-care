@@ -1,5 +1,8 @@
 Parents = new Mongo.Collection("parents");
 Children = new Mongo.Collection("children");
+Trackables = new Mongo.Collection("trackables");
+Events = new Mongo.Collection("events");
+
 
 var ParentSchema = new SimpleSchema({
   username: {
@@ -49,28 +52,23 @@ var ChildSchema = new SimpleSchema({
     label: "set bed time of child, in 24hr format"
   },
 
-  trackables: {
-    type: [Trackable],
-    label: "trackables of a child",
-    optional: true
-  }
 });
 
-var Trackable = new SimpleSchema({
-  events: {
-    type: [Event],
-    label: "event of a trackable"
-  },
-
+var TrackableSchema = new SimpleSchema({
   promptInterval: {
     type: Number,
     label: "interval to prompt the event, in minutes"
+  },
+
+  childId: {
+    type: String,
+    label: "id of the child the trackable relates to"
   }
 });
 
 // For now, we add relevant fields/events into an Event object
 // we implicitly set the rules for now.
-var Event = new SimpleSchema({
+var EventSchema = new SimpleSchema({
   eventType: {
     type: String,
     label: "type of an event. Any object that extends event.",
@@ -80,8 +78,15 @@ var Event = new SimpleSchema({
   timeStamp: {
     type: Date,
     label: "time stamp of a trackable event."
+  },
+
+  trackableId: {
+    type: String,
+    label: "id of the trackable the event relates to"
   }
 });
 
 Parents.attachSchema(ParentSchema);
 Children.attachSchema(ChildSchema);
+Trackables.attachSchema(TrackableSchema);
+Events.attachSchema(EventSchema);

@@ -7,5 +7,13 @@ Meteor.startup(function() {
     Meteor.publish("children", function() {
       return Children.find();
     });
+
+    Meteor.publish("trackables", function() {
+      return Trackables.find();
+    });
+
+    Meteor.publish("events", function() {
+      return Events.find();
+    });
   }
 })
