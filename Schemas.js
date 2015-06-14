@@ -89,6 +89,11 @@ var TrackableSchema = new SimpleSchema({
   isProblemForChild: {
     type: Boolean,
     label: "Does the problem exist for the child"
+  },
+
+  severity: {
+    type: String,
+    label: "The severity of the problem for the child"
   }
 });
 
@@ -103,6 +108,11 @@ var EventSchema = new SimpleSchema({
   trackableId: {
     type: String,
     label: "id of the trackable the event relates to"
+  },
+
+  note: {
+    type: String,
+    label: "note of an event"
   }
 });
 

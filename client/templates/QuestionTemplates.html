@@ -1,0 +1,41 @@
+<template name="sleepingProblem">
+  <div class="row">
+    Does your child have a sleeping problem?
+  </div>
+  <div class="row">
+    <button class="btn btn-danger yes">Yes</button>
+  </div>
+  <div class="row">
+    <button class="btn btn-success no">No</button>
+  </div>
+</template>
+
+<template name="trackableForm">
+  <div class="row">
+    <h4>What is your child's bed time?</h4>
+  </div>
+  <div class="row">
+    <div id="datetimepicker3" class="input-append">
+      <input class="bedTime" data-format="hh:mm:ss" type="text">
+      <span class="add-on">
+        <button class="btn btn-primary">Choose</button>
+      </span>
+    </div>
+  </div>
+  <div class="row">
+    <h4>When do you like to be notified?</h4>
+  </div>
+  <div class="row">
+    <input class="notifyAfter" type="number"><label>Hours After</label>
+  </div>
+  <div class="row">
+    <h4>How often would you like to be notified?</h4>
+  </div>
+  <div class="row">
+    <label>Every</label><input class="notifyFrequency" type="number"><label>Hours</label>
+  </div>
+  <br />
+  <div class="row">
+    <button class="btn createTrackable">Create</button>
+  </div>
+</template>
