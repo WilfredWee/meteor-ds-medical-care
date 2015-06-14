@@ -11,7 +11,7 @@ Meteor.startup(function() {
     var initialTestChild = {
       firstName: "Sara",
       lastName: "Smith",
-      dob: new Date("20051005"),
+      dob: new Date("2005-10-05"),
       gender: "Female",
       parentId: parentId,
       bedTime: 1200
@@ -22,13 +22,13 @@ Meteor.startup(function() {
     var child2 = {
       firstName: "Sam",
       lastName: "Smith",
-      dob: new Date("20050402"),
+      dob: new Date("2004-04-02"),
       gender: "Male",
       parentId: parentId,
       bedTime: 1200
     };
 
-    var childId = Children.insert(initialTestChild);
+    var child2Id = Children.insert(child2);
 
     var bedtimeProblem = {
       code: "sleep_bedtime",
