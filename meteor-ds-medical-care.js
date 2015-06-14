@@ -6,6 +6,10 @@ if (Meteor.isClient) {
   Template.profiles.helpers({
     parents: function(){
       return Parents.find().fetch();
+    },
+
+    children: function(){
+      return Children.find().fetch();
     }
   })
 }

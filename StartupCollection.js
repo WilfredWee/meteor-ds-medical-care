@@ -1,7 +1,7 @@
 Meteor.startup(function() {
    if(Meteor.isServer && Parents.find().fetch().length === 0) {
     var initialTestParent = {
-      username: "TestParent",
+      username: "TestParent1",
       password: "pass",
       email: "wilfred.wee@outlook.com"
     };
