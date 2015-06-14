@@ -10,3 +10,12 @@ Restivus.addRoute('parents/username=:id', {authRequired: false}, {
     };
   }
 });
+
+Restivus.addRoute('children/parentid:id', {authRequired:false}, {
+  get: function() {
+    var children = Children.find({parentId: this.urlParams.id}).fetch();
+    if (children.length> 0){
+      return {status: 'fail', message: 'No Children for that parent found'}
+    };
+  }
+});
