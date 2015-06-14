@@ -1,36 +1,7 @@
 <template name="profiles">
 	<div class="container">
-		<div class="profile-container">
-			<div class="row">
-				<div class="col-xs-12 col-md-3">
-		    		<p>
-		    			<img src="Happy-Kid-Stock.png" class="img-responsive img-circle profile-picture">
-		    		</p>
-	    		</div>
-	    		<div class="col-xs-12 col-md-offset-1 col-md-4">
-	    			<h2 class="child-name">John Smith</h2>
-	    			<h3 class="last-updated"><i>Last updated: 12:00am</i></h3>
-	    			<p class="information">
-	    				Date of Birth: January 1, 1900<br>
-	    				Gender: Male<br>
-	    				Medical ID: #123456
-	    			</p>
-	    		</div>
-	    		<div class="col-xs-12 col-md-offset-1 col-md-3">
-	    			<button class="btn btn-success">Visual Overview</button>
-	    		</div>
-    		</div>
-		</div>
-	</div>
-	<div class="container">
-		<div class="panel">
-			<div class="panel-body">
-				<ul>
-				{{#each parents}}
-					{{> parent}}
-				{{/each}}
-				</ul>
-			</div>
-		</div>
+	{{#each children}}
+		{{> child}}
+	{{/each}}
 	</div>
 </template>
