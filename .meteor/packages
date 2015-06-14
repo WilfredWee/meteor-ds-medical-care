@@ -15,3 +15,4 @@ twbs:bootstrap
 iron:router
 nimble:restivus
 rafaelhdr:google-charts
+jquery

@@ -28,7 +28,7 @@ Meteor.startup(function() {
       bedTime: 1200
     };
 
-    var childId = Children.insert(initialTestChild);
+    var child2Id = Children.insert(child2);
 
     var bedtimeProblem = {
       code: "sleep_bedtime",

@@ -7,6 +7,10 @@ html, body, .container{
     height: 100%;
 }
 
+.hidden{
+	visibility: hidden;
+}
+
 .container{
     display: table;
     vertical-align: middle;
@@ -32,10 +36,20 @@ html, body, .container{
 	max-width: 250px;
 }
 
+#added-photo{
+	height: 250px;
+	width: 250px;
+}
 .last-updated{
 	opacity: 0.5;
 }
 
 .information{
 	font-size: 20px;
+	margin: 0 0 0 0;
 }
+
+#parent {padding:  5% 0;}
+#child  {padding: 10% 0;}
+
+.img-center {margin:0 auto;}
