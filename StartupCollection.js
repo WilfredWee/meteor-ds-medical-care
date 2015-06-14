@@ -1,5 +1,5 @@
 Meteor.startup(function() {
-  // if(Parents.find().fetch().length === 0) {
+   if(Meteor.isServer && Parents.find().fetch().length === 0) {
     var initialTestParent = {
       username: "TestParent",
       password: "pass",
@@ -43,5 +43,5 @@ Meteor.startup(function() {
 
     var initialEventId = Events.insert(initialEvent);
 
-  // }
+   }
 });

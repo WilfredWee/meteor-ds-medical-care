@@ -16,7 +16,21 @@
 	    				Medical ID: #123456
 	    			</p>
 	    		</div>
+	    		<div class="col-xs-12 col-md-offset-1 col-md-3">
+	    			<button class="btn btn-success">Visual Overview</button>
+	    		</div>
     		</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="panel">
+			<div class="panel-body">
+				<ul>
+				{{#each parents}}
+					{{> parent}}
+				{{/each}}
+				</ul>
+			</div>
 		</div>
 	</div>
 </template>
