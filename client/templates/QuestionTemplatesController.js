@@ -36,6 +36,15 @@ Meteor.startup(function() {
 Template.trackableForm.helpers({
   problemInputs: function() {
     return allProblems;
+  },
+  hasProblemContext: function() {
+    var problemContext = Session.get("currentProblem");
+
+    if(!problemContext) {
+      return false;
+    }
+
+    return true;
   }
 });
 
@@ -49,6 +58,9 @@ Template.problemInput.helpers({
   isChecked: function(problemCode) {
     var problems = Session.get("problems");
     return _.some(problems, function(problem) {
+      if(!problem) {
+        return false;
+      }
       return problem.code === problemCode;
     });
   }
@@ -112,22 +124,68 @@ var handleSessionProblems = function(event, problemCode) {
   }
   else {
     problems = _.filter(problems, function(problem) {
+      if(!problem) {
+        return false;
+      }
       return problem.code !== problemCode;
     });
   }
 
   Session.set("problems", problems);
+  Session.set("problemsContexts", problems);
 }
 
 Template.trackableForm.events({
   "change .checkbox": function(event) {
+    if(!event.currentTarget.id) {
+      return;
+    }
     handleSessionProblems(event, event.currentTarget.id);
   },
 
   "click #nextButton": function(event) {
     event.preventDefault();
 
+    var problems = Session.get("problemsContexts");
+    var currentProblem = problems.pop();
+    Session.set("problemsContexts", problems);
 
+    Session.set("currentProblem", currentProblem);
+
+  }
+});
+
+Template.problemContextQuestions.helpers({
+  isBedTimeProblem: function() {
+    var currentProblem = Session.get("currentProblem");
+
+    return currentProblem.code === bedTimeProblem.code;
+  },
+
+  isAwakeningProblem: function() {
+    var currentProblem = Session.get("currentProblem");
+
+    return currentProblem.code === awakeningProblem.code;
+  },
+
+  isBreathingProblem: function() {
+    var currentProblem = Session.get("currentProblem");
+
+    return currentProblem.code === breathingProblem.code;
+  }
+});
+
+Template.problemContextQuestions.events({
+  "click .button": function(event) {
+    event.preventDefault();
+    var currentProblem = Session.get("currentProblem");
+
+    var problemsContexts = Session.get("problemsContexts");
+
+    var newProblem = problemsContexts.pop();
+
+    Session.set("problemsContexts", problemsContexts);
+    Session.set("currentProblem", newProblem);
 
   }
 });

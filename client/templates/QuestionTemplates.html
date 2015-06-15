@@ -36,12 +36,16 @@
 
 
 <template name="trackableForm">
+  {{#if hasProblemContext}}
+    {{> problemContextQuestions}}
+  {{else}}
   <label class="control-label">Which of the following if your biggest concerns about your child's sleep?</label>
   <br />
-  {{#each problemInputs}}
-    {{> problemInput}}
-  {{/each}}
+    {{#each problemInputs}}
+      {{> problemInput}}
+    {{/each}}
   <button class="btn" id="nextButton">Next</button>
+  {{/if}}
 </template>
 
 <template name="problemInput">
@@ -59,4 +63,68 @@
       <option value="5">Severe</option>
     </select>
   {{/if}}
+</template>
+
+<template name="problemContextQuestions">
+  {{#if isBedTimeProblem}}
+    <label class="control-label">Which of these bedtime behaviours applies to Sarah?</label>
+    <br />
+    <div class="checkbox">
+      <label>
+        <input class="checkbox" type="checkbox">Refuses to go to bed.
+      </label>
+    </div>
+    <div class="checkbox">
+      <label>
+        <input class="checkbox" type="checkbox">Stays awake for more than 20 minutes before falling asleep
+      </label>
+    </div>
+    <div class="checkbox">
+      <label>
+        <input class="checkbox" type="checkbox">Needs you to go to bed
+      </label>
+    </div>
+    <div class="checkbox">
+      <label>
+        <input class="checkbox" type="checkbox">Has worries or anxieties when she goes to bed
+      </label>
+    </div>
+    <div class="checkbox">
+      <label>
+        <input class="checkbox" type="checkbox">Gets agitated/hyperactive before bedtime.
+      </label>
+    </div>
+  {{else}}
+    {{#if isBreathingProblem}}
+
+      <label class="control-label">Which of the following are your biggest concerns about Sarah's breathing during sleep?</label>
+    <br />
+    <div class="checkbox">
+      <label>
+        <input class="checkbox" type="checkbox">Sweating/hot at night
+      </label>
+    </div>
+    <div class="checkbox">
+      <label>
+        <input class="checkbox" type="checkbox">Snoring
+      </label>
+    </div>
+    <div class="checkbox">
+      <label>
+        <input class="checkbox" type="checkbox">Breathing pauses
+      </label>
+    </div>
+    <div class="checkbox">
+      <label>
+        <input class="checkbox" type="checkbox">Mouth breathing
+      </label>
+    </div>
+    <div class="checkbox">
+      <label>
+        <input class="checkbox" type="checkbox">Bedwetting at night
+      </label>
+    </div>
+    {{/if}}
+  {{/if}}
+  <button class="btn button">Next</button>
 </template>
