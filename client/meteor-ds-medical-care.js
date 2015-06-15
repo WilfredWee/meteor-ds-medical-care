@@ -43,7 +43,7 @@ if (Meteor.isClient) {
       var child = {
         firstName: firstName,
         lastName: lastName,
-        dob: dob,
+        dob: new Date(dob),
         gender: gender,
         parentId: 'MWW4XDpWStRXGkRef',
         bedTime: 1400
@@ -75,9 +75,9 @@ if (Meteor.isClient) {
         }
 
         var addedTrackable = Trackables.insert(trackable)
-      } else {
-        var addedChild = Children.insert(child);
       }
+
+      var addedChild = Children.insert(child);
 
       document.getElementById('add-child-form').reset();
       $('#editChildModal').modal('hide');
@@ -91,19 +91,19 @@ if (Meteor.isClient) {
 
   'click #sleepingProblemRadioGroup': function(event) {
     if($('#yesSleepingProblem').is(':checked')){
-      Session.set("yesSelected", true);
+        Session.set("yesSelected", true);
+      }
+      else{
+        Session.set("yesSelected", false)
+      }
     }
-    else{
-      Session.set("yesSelected", false) 
-    }
-  }
-  })
+  });
 
   Template.addprofile.helpers({
   yesSelected: function(){
     return Session.get("yesSelected");
   }
-  })
+  });
 
   Template.child.events({
     'click #btneditdata': function(event){
@@ -112,11 +112,18 @@ if (Meteor.isClient) {
       var child_id = parent.find('#child_id').text();
       Children.update({_id: child_id}, {$set: {firstName: "Roberta"}});
     }
-  })
+  });
+
+  Template.child.helpers({
+    imageLocation: function() {
+      var id = this._id;
+      return "http://104.131.137.34/api/picture/?id=" + id;
+    }
+  });
 }
 
 function readURL(input) {
-  if (input.files && input.files[0]) {
+  if(input.files && input.files[0]) {
       var reader = new FileReader();
 
       reader.onload = function (e) {

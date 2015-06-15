@@ -1,7 +1,7 @@
 <template name="sleepingProblem">
-  <div class="row">
+  <label class="control-label">
     Does your child have a sleeping problem?
-  </div>
+  </label>
   <div id="sleepingProblemRadioGroup">
     <label class="radio-inline">
       <input type="radio" name="sleepingproblem" id="yesSleepingProblem">Yes
@@ -12,32 +12,51 @@
   </div>
 </template>
 
-<template name="trackableForm">
-  <div class="row">
-    <h4>What is your child's bed time?</h4>
+<!-- <template name="trackableForm">
+  <label class="control-label">
+    What is your child's bed time?
+  </label>
+  <div id="datetimepicker3" class="input-append">
+    <input class="bedTime" data-format="hh:mm:ss" type="text" id="bedTime">
+    <span class="add-on">
+      <button class="btn btn-primary">Choose</button>
+    </span>
   </div>
-  <div class="row">
-    <div id="datetimepicker3" class="input-append">
-      <input class="bedTime" data-format="hh:mm:ss" type="text" id="bedTime">
-      <span class="add-on">
-        <button class="btn btn-primary">Choose</button>
-      </span>
-    </div>
-  </div>
-  <div class="row">
-    <h4>When do you like to be notified?</h4>
-  </div>
-  <div class="row">
-    <input class="notifyAfter" type="number" id="notifyTime"><label>Hours After</label>
-  </div>
-  <div class="row">
-    <h4>How often would you like to be notified?</h4>
-  </div>
-  <div class="row">
+  <label class="control-label">
+    When do you like to be notified?
+  </label>
+    <div><input class="notifyAfter" type="number" id="notifyTime"><label>Hours After</label></div>
+  <label class="control-label">
+    How often would you like to be notified?
+  </label>
+  <div>
     <label>Every</label><input class="notifyFrequency" type="number" id="frequency"><label>Hours</label>
   </div>
+</template> -->
+
+
+<template name="trackableForm">
+  <label class="control-label">Which of the following if your biggest concerns about your child's sleep?</label>
   <br />
-  <div class="row">
-    <button class="btn createTrackable">Create</button>
+  {{#each problemInputs}}
+    {{> problemInput}}
+  {{/each}}
+  <button class="btn" id="nextButton">Next</button>
+</template>
+
+<template name="problemInput">
+  <div class="checkbox">
+    <label>
+      <input class="checkbox" type="checkbox" id={{code}}> {{name}}
+    </label>
   </div>
+  {{#if isChecked code}}
+    <select class="severitySelect">
+      <option value="1">Nothing</option>
+      <option value="2">A little</option>
+      <option value="3">Something</option>
+      <option value="4">Bad</option>
+      <option value="5">Severe</option>
+    </select>
+  {{/if}}
 </template>

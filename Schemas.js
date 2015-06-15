@@ -110,6 +110,11 @@ var EventSchema = new SimpleSchema({
     label: "id of the trackable the event relates to"
   },
 
+  happinessLevel: {
+    type: Number,
+    label: "level of happiness, in increasing order. 0 and negative is sad."
+  },
+
   note: {
     type: String,
     label: "note of an event"
