@@ -33,7 +33,7 @@ if (Meteor.isClient) {
       var child = {
         firstName: firstName,
         lastName: lastName,
-        dob: dob,
+        dob: new Date(dob),
         gender: gender,
         parentId: 'MWW4XDpWStRXGkRef',
         bedTime: 1400
@@ -65,9 +65,9 @@ if (Meteor.isClient) {
         }
 
         var addedTrackable = Trackables.insert(trackable)
-      } else {
-        var addedChild = Children.insert(child);
       }
+
+      var addedChild = Children.insert(child);
 
       document.getElementById('add-child-form').reset();
       $('#editChildModal').modal('hide');
@@ -84,7 +84,7 @@ if (Meteor.isClient) {
       Session.set("yesSelected", true);
     }
     else{
-      Session.set("yesSelected", false) 
+      Session.set("yesSelected", false)
     }
   }
   })
