@@ -1,4 +1,11 @@
 <template name="addprofile">
+<div class="modal fade" data-backdrop="static" id="editChildModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h3 class="modal-title text-center">Edit Child Profile</h3>
+      </div>
       <div class="modal-body">      
         <input type="image" src="AddPhoto.png" class="img-responsive img-center img-circle profile-picture" id="added-photo">
         <input type="file" id="upload-file" style="display: none;" />
@@ -15,10 +22,17 @@
             <label for="phone-number" class="control-label">Phone Number:</label>
             <input class="form-control" id="phone-number" name="phone-number">
           </div>
+          {{ > sleepingProblem }}
+          {{ #if yesSelected }}
+            {{ > trackableForm }}
+          {{/if}}
         </form>
        </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
         <button type="button" class="btn btn-primary" id="submit">Save changes</button>
       </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->      
 </template>

@@ -15,6 +15,7 @@ Template.sleepingProblem.events({
   // later send it to the server.
 
   "click .yes": function(event) {
+    event.preventDefault();
     var problems = Session.get("problems");
 
     problems = problems.push({

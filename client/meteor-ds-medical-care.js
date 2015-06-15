@@ -11,18 +11,6 @@ Meteor.startup(function(){
   });
 })
 
-  function readURL(input) {
-    if (input.files && input.files[0]) {
-        var reader = new FileReader();
-
-        reader.onload = function (e) {
-            $('#added-photo').attr('src', e.target.result);
-        }
-
-        reader.readAsDataURL(input.files[0]);
-    }
-  }
-
 if (Meteor.isClient) {
   Template.profiles.helpers({
     parents: function(){
@@ -51,11 +39,60 @@ if (Meteor.isClient) {
         bedTime: 1400
       }
 
-      Children.insert(child);
+      if($('#yesSleepingProblem').is(':checked')){
+        var problem = 'sleeping_problem';
+        var sleep_time = $('#bedTime').val();
+        var notify_time = $('#notifyTime').val() * 60 + sleep_time;
+        var frequency = $('#frequency').val() * 60;
+
+        var problem = {
+          code: problem,
+          name: 'Does your child have problems sleeping?'
+        }
+
+        var addedProblem = Problems.insert(problem);
+
+        child.bedTime = sleep_time;
+
+        var addedChild = Children.insert(child);
+
+        var trackable = {
+          notifyAt: notify_time,
+          promptInterval: 100,
+          childId: addedChild,
+          problemId: addedProblem,
+          isProblemForChild: true
+        }
+
+        var addedTrackable = Trackables.insert(trackable)
+      } else {
+        var addedChild = Children.insert(child);
+      }
 
       document.getElementById('add-child-form').reset();
       $('#editChildModal').modal('hide');
     }
+  })
+
+  Template.sleepingProblem.events({
+  // If the child has a sleeping problem, we will
+  // construct a problem and trackable object and
+  // later send it to the server.
+
+  'click #sleepingProblemRadioGroup': function(event) {
+    if($('#yesSleepingProblem').is(':checked')){
+      Session.set("yesSelected", true);
+    }
+    else{
+      Session.set("yesSelected", false) 
+    }
+  }
+  })
+
+  Template.addprofile.helpers({
+  yesSelected: function(){
+    return Session.get("yesSelected");
+  }
   })
 
   Template.child.events({
@@ -67,3 +104,29 @@ if (Meteor.isClient) {
     }
   })
 }
+
+function readURL(input) {
+  if (input.files && input.files[0]) {
+      var reader = new FileReader();
+
+      reader.onload = function (e) {
+          $('#added-photo').attr('src', e.target.result);
+      }
+
+      reader.readAsDataURL(input.files[0]);
+  }
+}
+
+// var $radioButtons = $('input:radio');
+
+// function isRadioChecked(radioButtons){
+//   var radioChecked = false;
+//   $radioButtons.each(function(){
+//     if(this.checked){
+//       radioChecked = true;
+
+//       return false;
+//     }
+//   });
+//   return radioChecked;
+// }

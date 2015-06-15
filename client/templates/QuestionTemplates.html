@@ -2,11 +2,13 @@
   <div class="row">
     Does your child have a sleeping problem?
   </div>
-  <div class="row">
-    <button class="btn btn-danger yes">Yes</button>
-  </div>
-  <div class="row">
-    <button class="btn btn-success no">No</button>
+  <div id="sleepingProblemRadioGroup">
+    <label class="radio-inline">
+      <input type="radio" name="sleepingproblem" id="yesSleepingProblem">Yes
+    </label>
+    <label class="radio-inline">
+      <input type="radio" name="sleepingproblem">No
+    </label>
   </div>
 </template>
 
@@ -16,7 +18,7 @@
   </div>
   <div class="row">
     <div id="datetimepicker3" class="input-append">
-      <input class="bedTime" data-format="hh:mm:ss" type="text">
+      <input class="bedTime" data-format="hh:mm:ss" type="text" id="bedTime">
       <span class="add-on">
         <button class="btn btn-primary">Choose</button>
       </span>
@@ -26,13 +28,13 @@
     <h4>When do you like to be notified?</h4>
   </div>
   <div class="row">
-    <input class="notifyAfter" type="number"><label>Hours After</label>
+    <input class="notifyAfter" type="number" id="notifyTime"><label>Hours After</label>
   </div>
   <div class="row">
     <h4>How often would you like to be notified?</h4>
   </div>
   <div class="row">
-    <label>Every</label><input class="notifyFrequency" type="number"><label>Hours</label>
+    <label>Every</label><input class="notifyFrequency" type="number" id="frequency"><label>Hours</label>
   </div>
   <br />
   <div class="row">
