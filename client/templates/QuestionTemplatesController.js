@@ -31,6 +31,9 @@ var allProblems = [bedTimeProblem, awakeningProblem, breathingProblem,  parasomn
 Meteor.startup(function() {
   Session.setDefault("problems", []);
   Session.setDefault("trackables", []);
+  Session.setDefault("isDone", false);
+  Session.setDefault("problemsContexts", []);
+  Session.setDefault("currentProblem", null);
 });
 
 Template.trackableForm.helpers({
