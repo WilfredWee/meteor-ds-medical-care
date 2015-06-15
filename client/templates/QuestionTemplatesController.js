@@ -45,6 +45,10 @@ Template.trackableForm.helpers({
     }
 
     return true;
+  },
+
+  isNotDone: function() {
+    return !Session.get("isDone");
   }
 });
 
@@ -73,7 +77,7 @@ Template.problemInput.events({
     var trackables = Session.get("trackables");
 
     var trackable = _.find(trackables, function(trackable) {
-      return trackable.problemCode === this.code
+      return trackable.problemCode === this.code;
     }.bind(this));
 
     if(!trackable) {
@@ -133,7 +137,7 @@ var handleSessionProblems = function(event, problemCode) {
 
   Session.set("problems", problems);
   Session.set("problemsContexts", problems);
-}
+};
 
 Template.trackableForm.events({
   "change .checkbox": function(event) {
@@ -179,8 +183,11 @@ Template.problemContextQuestions.events({
   "click .button": function(event) {
     event.preventDefault();
     var currentProblem = Session.get("currentProblem");
-
     var problemsContexts = Session.get("problemsContexts");
+
+    if(problemsContexts.length === 0) {
+      Session.set("isDone", true);
+    }
 
     var newProblem = problemsContexts.pop();
 

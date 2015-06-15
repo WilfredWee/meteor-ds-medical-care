@@ -1,10 +1,10 @@
 Meteor.startup(function(){
   $('#editChildModal').on('shown.bs.modal', function () {
-  $('#first-name').focus()
-  })
+  $('#first-name').focus();
+  });
   $('#loginModal').on('shown.bs.modal', function () {
-  $('#username').focus()
-  })
+  $('#username').focus();
+  });
   $("input[type='image']").click(function() {
     $("input[id='upload-file']").click();
   });
@@ -12,7 +12,7 @@ Meteor.startup(function(){
   $("#upload-file").change(function(){
     readURL(this);
   });
-})
+});
 
 if (Meteor.isClient) {
   Template.profiles.helpers({
@@ -23,14 +23,14 @@ if (Meteor.isClient) {
     children: function(){
       return Children.find().fetch();
     }
-  })
+  });
 
   Template.login.events({
     'click #submitLogin': function(event){
       event.preventDefault();
       window.location.href = '/profiles';
     }
-  })
+  });
 
   Template.addprofile.events({
     'click #submit': function(event){
@@ -47,34 +47,40 @@ if (Meteor.isClient) {
         gender: gender,
         parentId: 'MWW4XDpWStRXGkRef',
         bedTime: 1400
-      }
+      };
 
       if($('#yesSleepingProblem').is(':checked')){
-        var problem = 'sleeping_problem';
+        var problems = Session.get("problems");
         var sleep_time = $('#bedTime').val();
         var notify_time = $('#notifyTime').val() * 60 + sleep_time;
         var frequency = $('#frequency').val() * 60;
 
-        var problem = {
-          code: problem,
-          name: 'Does your child have problems sleeping?'
-        }
+        var addedProblemIds = [];
+        if(problems && problems.length > 0) {
+          _.each(problems, function(problem) {
+            var addedProblemId = Problems.insert(problem);
 
-        var addedProblem = Problems.insert(problem);
+            addedProblemIds.push(addedProblemId);
+          });
+        }
 
         child.bedTime = sleep_time;
 
         var addedChild = Children.insert(child);
 
-        var trackable = {
-          notifyAt: notify_time,
-          promptInterval: 100,
-          childId: addedChild,
-          problemId: addedProblem,
-          isProblemForChild: true
-        }
+        if(addedProblemIds.length > 0) {
+          _.each(addedProblemIds, function(problemId) {
+            var trackable = {
+              notifyAt: notify_time,
+              promptInterval: 100,
+              childId: addedChild,
+              problemId: problemId,
+              isProblemForChild: true
+            };
 
-        var addedTrackable = Trackables.insert(trackable)
+            var addedTrackable = Trackables.insert(trackable);
+          });
+        }
       }
 
       var addedChild = Children.insert(child);
@@ -82,7 +88,7 @@ if (Meteor.isClient) {
       document.getElementById('add-child-form').reset();
       $('#editChildModal').modal('hide');
     }
-  })
+  });
 
   Template.sleepingProblem.events({
   // If the child has a sleeping problem, we will
@@ -94,7 +100,7 @@ if (Meteor.isClient) {
         Session.set("yesSelected", true);
       }
       else{
-        Session.set("yesSelected", false)
+        Session.set("yesSelected", false);
       }
     }
   });
@@ -128,7 +134,7 @@ function readURL(input) {
 
       reader.onload = function (e) {
           $('#added-photo').attr('src', e.target.result);
-      }
+      };
 
       reader.readAsDataURL(input.files[0]);
   }

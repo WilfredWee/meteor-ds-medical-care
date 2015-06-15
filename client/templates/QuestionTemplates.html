@@ -36,6 +36,7 @@
 
 
 <template name="trackableForm">
+  {{#if isNotDone}}
   {{#if hasProblemContext}}
     {{> problemContextQuestions}}
   {{else}}
@@ -45,6 +46,9 @@
       {{> problemInput}}
     {{/each}}
   <button class="btn" id="nextButton">Next</button>
+  {{/if}}
+  {{else}}
+    <h2>Done!</h2>
   {{/if}}
 </template>
 
