@@ -2,6 +2,9 @@ Meteor.startup(function(){
   $('#editChildModal').on('shown.bs.modal', function () {
   $('#first-name').focus()
   })
+  $('#loginModal').on('shown.bs.modal', function () {
+  $('#username').focus()
+  })
   $("input[type='image']").click(function() {
     $("input[id='upload-file']").click();
   });
@@ -19,6 +22,13 @@ if (Meteor.isClient) {
 
     children: function(){
       return Children.find().fetch();
+    }
+  })
+
+  Template.login.events({
+    'click #submitLogin': function(event){
+      event.preventDefault();
+      window.location.href = '/profiles';
     }
   })
 
