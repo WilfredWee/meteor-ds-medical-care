@@ -32,8 +32,8 @@ html, body, .container{
 
 .profile-picture{
 	border: 1px solid #E6E6E6;
-	max-height: 250px;
-	max-width: 250px;
+	max-height: 150px;
+	max-width: 150px;
 }
 
 #added-photo{
@@ -220,4 +220,78 @@ nav {
 	background-color: rgba(255, 255, 255, 0);
 	border-color: #FFFFFF;
 	border-width: 2px;
+}
+
+     /*edit bootstrap ui element*/
+
+.btn-primary{
+  background:#4a85a5;
+  border:none;
+  box-shadow: 1px 1px 5px #888888;
+}
+
+.btn-primary:hover{
+  background:#4a85a5;
+  opacity: 0.8;
+}
+
+.btn-success{
+  background: #588D91;
+  border:none;
+}
+.btn-success:hover{
+  background: #588D91;
+  opacity:0.8;
+}
+
+
+
+/* profile UI */
+#child .btn-success{
+  margin:12px;
+}
+
+div.form-group{
+  padding: 0px 100px 20px 100px;
+}
+
+input#added-photo{
+  margin:50px auto;
+}
+
+
+/*   add child form   */
+.modal-dialog{
+  width:500px;
+}
+.modal-body{
+  padding:25px;
+}
+
+form>label.control-label,form>a{
+  margin:20px 80px 5px 80px;
+}
+
+#sleepingProblemRadioGroup{
+  margin-bottom: 20px;
+  margin:5px 80px 5px 80px;
+}
+#nextButton, .checkbox+.btn{
+
+  margin:0px 80px 0px 80px;
+}
+#sleepingProblemRadioGroup+h2{
+  color:#58c1c7;
+  font-size: 16px;
+  margin:10 auto;
+  text-align: center;
+}
+form>div.checkbox{
+  margin:5px 80px 5px 80px;
+}
+form>div.checkbox>label{
+  margin:3px 0px;
+}
+.severitySelect{
+  margin:5px 80px 5px 80px;
 }
