@@ -118,9 +118,9 @@ if (Meteor.isClient) {
   Template.child.events({
     'click #btneditdata': function(event){
       event.preventDefault();
-      var parent = $(event.target).closest('.row');
-      var child_id = parent.find('#child_id').text();
-      Children.update({_id: child_id}, {$set: {firstName: "Roberta"}});
+      // var parent = $(event.target).closest('.row');
+      // var child_id = parent.find('#child_id').text();
+      // Children.update({_id: child_id}, {$set: {firstName: "Roberta"}});
     }
   });
 
