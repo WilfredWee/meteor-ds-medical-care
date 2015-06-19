@@ -177,6 +177,34 @@ if (Meteor.isClient) {
 
       return parent.username;
 
+    },
+
+    getBedTime: function() {
+      var bedTimeString;
+      var bedTime = this.bedTime;
+      var ampm;
+
+      if(bedTime >= 12 * 60) {
+        ampm = "pm";
+        bedTime -= (12*60)
+      }
+      else {
+        ampm = "am";
+      }
+
+      if(bedTime < 60) {
+        bedTimeString = "12:" + bedTime.toString + ampm;
+      }
+      else {
+        var hour = Math.floor(bedTime / 60);
+        var minutes = bedTime % 60;
+        if(minutes < 10) {
+          minutes = "0" + minutes.toString();
+        }
+        bedTimeString = hour + ":" + minutes + ampm;
+      }
+
+      return bedTimeString;
     }
   });
 }

@@ -14,7 +14,7 @@ Meteor.startup(function() {
       dob: new Date("2005-10-05"),
       gender: "Female",
       parentId: parentId,
-      bedTime: 1200
+      bedTime: 20 * 60
     };
 
     var childId = Children.insert(initialTestChild);
