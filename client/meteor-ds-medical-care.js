@@ -1,17 +1,21 @@
 Meteor.startup(function(){
-  $('#editChildModal').on('shown.bs.modal', function () {
-  $('#first-name').focus();
-  });
-  $('#loginModal').on('shown.bs.modal', function () {
-  $('#username').focus();
-  });
-  $("input[type='image']").click(function() {
-    $("input[id='upload-file']").click();
-  });
+  if(Meteor.isClient) {
+    $('#editChildModal').on('shown.bs.modal', function () {
+    $('#first-name').focus();
+    });
+    $('#loginModal').on('shown.bs.modal', function () {
+    $('#username').focus();
+    });
+    $("input[type='image']").click(function() {
+      $("input[id='upload-file']").click();
+    });
 
-  $("#upload-file").change(function(){
-    readURL(this);
-  });
+    $("#upload-file").change(function(){
+      readURL(this);
+    });
+
+    Session.setDefault("profileImage", "/child-profile-default.jpg");
+  }
 });
 
 if (Meteor.isClient) {
@@ -121,9 +125,43 @@ if (Meteor.isClient) {
   });
 
   Template.child.helpers({
+    getId: function() {
+      var id = this._id;
+      var location = "http://104.131.137.34/api/picture/?id=" + id;
+
+      var img = $("<img />");
+      var img2 = img.attr("src", location)
+        .attr("class", "img-responsive img-center img-circle profile-picture")
+        .load(function() {
+           if (!this.complete || typeof this.naturalWidth == "undefined" || this.naturalWidth == 0) {
+              img2.attr("src", "/child-profile-default.jpg");
+              $("#" + id).append(img2);
+            } else {
+                $("#" + id).append(img2);
+            }
+        })
+        .error(function() {
+          img2.attr("src", "/child-profile-default.jpg");
+          $("#" + id).append(img2);
+        });
+
+      return id;
+    },
+
     imageLocation: function() {
       var id = this._id;
-      return "http://104.131.137.34/api/picture/?id=" + id;
+      var location = "http://104.131.137.34/api/picture/?id=" + id;
+
+      $.ajax ({
+        url : location
+      }).done(function() {
+        Session.set("profileImage", location);
+      })
+      .fail(function() {
+        Session.set("profileImage", "/child-profile-default.jpg");
+      });
+
+      return Session.get("profileImage");
     }
   });
 }
