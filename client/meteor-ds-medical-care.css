@@ -307,3 +307,27 @@ form>div.checkbox>label{
 .severitySelect{
   margin:5px 80px 5px 80px;
 }
+
+#navbar-profiles {
+  background-color: #4A85A5;
+}
+
+#ul-profiles > li > a {
+  color: #FFFFFF;
+}
+
+#child-survey {
+  margin: 12px;
+}
+
+#btn-visual-overview {
+  background-color: #58c1c7;
+}
+
+#btneditdata {
+  background-color: #588d91;
+}
+
+#addnewprofilebtn {
+  margin: 20px;
+}

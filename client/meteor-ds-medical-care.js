@@ -162,6 +162,21 @@ if (Meteor.isClient) {
       });
 
       return Session.get("profileImage");
+    },
+
+    getDob: function() {
+      var dob = this.dob;
+
+      return dob.getUTCFullYear() + "-" + dob.getUTCMonth() + "-" + dob.getUTCDate();
+    },
+
+    getParentName: function() {
+      var parentId = this.parentId;
+
+      var parent = Parents.findOne({_id: parentId});
+
+      return parent.username;
+
     }
   });
 }

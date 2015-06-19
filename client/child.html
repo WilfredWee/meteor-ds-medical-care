@@ -11,17 +11,17 @@
 	    				<span class="child-last-name">{{lastName}}</span>
 	    			</h2>
 	    			<h3 class="last-updated"><i>Last updated: Not provided</i></h3>
-	    			<p class="information">Date of Birth: <span id="dob"> {{dob}} </span></p>
+	    			<p class="information">Date of Birth: <span id="dob"> {{getDob}} </span></p>
     				<p class="information">Gender: <span id="gender">{{gender}}</span></p>
-	    			<p class="information">Parent ID: <span id="parentId">{{parentId}}</span></p>
+	    			<p class="information">Parent Name: <span id="parentId">{{getParentName}}</span></p>
 	    			<p class="information">Bed Time: {{bedTime}}</p>
 	    			<span class="hidden" id="child_id">{{_id}}</span>
 	    		</div>
 	    		<div class="col-xs-12 col-md-offset-1 col-md-3" id="parent">
 	    			<div class="btn-group-vertical" role="group" id="child">
-	    				<button class="btn btn-success text-center">Visual Overview</button>
+	    				<button id="btn-visual-overview" class="btn btn-success text-center">Visual Overview</button>
 	    				<button class="btn btn-success text-center" id="btneditdata">Edit Profile</button>
-          		<a href="https://luay.vcfeedback.com/Test/5efbe018-53d3-48bf-4a82-bbe6ea1f26d5">Questions Survey</a>
+          		<a id="child-survey" href="https://luay.vcfeedback.com/Test/5efbe018-53d3-48bf-4a82-bbe6ea1f26d5">Questions Survey</a>
 	    			</div>
 	    		</div>
     		</div>

@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"margin",
+				"margin-top"
+			],
+			[
 				"curren",
 				"currentRound"
 			],
@@ -510,28 +514,40 @@
 			[
 				"qu",
 				"queue_dequeue"
-			],
-			[
-				"ar",
-				"argsv"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "collections.js",
+			"file": "client/meteor-ds-medical-care.css",
 			"settings":
 			{
-				"buffer_size": 53,
+				"buffer_size": 4688,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "meteor-ds-medical-care.html",
+			"file": "client/child.html",
 			"settings":
 			{
-				"buffer_size": 257,
+				"buffer_size": 1332,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "client/meteor-ds-medical-care.js",
+			"settings":
+			{
+				"buffer_size": 5036,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "StartupCollection.js",
+			"settings":
+			{
+				"buffer_size": 1806,
 				"line_ending": "Windows"
 			}
 		}
@@ -543,10 +559,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 88.0,
-		"last_filter": "",
+		"height": 213.0,
+		"last_filter": "html",
 		"selected_items":
 		[
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
 			[
 				"packageresou",
 				"PackageResourceViewer: Open Resource"
@@ -582,10 +602,6 @@
 			[
 				"css",
 				"Set Syntax: CSS"
-			],
-			[
-				"html",
-				"Set Syntax: HTML"
 			],
 			[
 				"coffee",
@@ -968,7 +984,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 384.0
+		"width": 368.0
 	},
 	"console":
 	{
@@ -992,13 +1008,17 @@
 	},
 	"expanded_folders":
 	[
+		"/C/Users/WilfredAdmin/Documents/GitHub/meteor-ds-medical-care",
+		"/C/Users/WilfredAdmin/Documents/GitHub/meteor-ds-medical-care/client"
 	],
 	"file_history":
 	[
+		"/C/Users/WilfredAdmin/Documents/GitHub/meteor-ds-medical-care/client/login-template.html",
+		"/C/Users/WilfredAdmin/Documents/GitHub/meteor-ds-medical-care/collections.js",
+		"/C/Users/WilfredAdmin/Documents/GitHub/meteor-ds-medical-care/meteor-ds-medical-care.html",
 		"/C/Users/WilfredAdmin/Documents/GitHub/meteor-ds-medical-care/meteor-ds-medical-care.css",
 		"/C/Users/WilfredAdmin/Documents/GitHub/ds-medical-care/.gitignore",
 		"/C/Users/WilfredAdmin/Documents/GitHub/meteor-ds-medical-care/meteor-ds-medical-care.js",
-		"/C/Users/WilfredAdmin/Documents/GitHub/meteor-ds-medical-care/meteor-ds-medical-care.html",
 		"/C/Users/WilfredAdmin/Documents/GitHub/ds-medical-care/gitignore.txt",
 		"/C/Users/WilfredAdmin/Documents/GitHub/ds-medical-care/ds_medical_care/settings.py",
 		"/C/Users/WilfredAdmin/Documents/GitHub/ds-medical-care/ds_medical_care/ds_medical_care_app/serializers.py",
@@ -1120,13 +1140,11 @@
 		"/C/Users/WilfredAdmin/Documents/GitHub/declash-tournament/client/templates/Management.html",
 		"/C/Users/WilfredAdmin/Documents/GitHub/declash-tournament/client/templates/home.js",
 		"/C/Users/WilfredAdmin/Documents/GitHub/declash-tournament/client/templates/base.js",
-		"/C/Users/WilfredAdmin/Documents/GitHub/declash-tournament/client/declash-tournament.js",
-		"/C/Users/WilfredAdmin/Documents/GitHub/declash-tournament/client/declash-tournament.html",
-		"/C/Users/WilfredAdmin/Documents/GitHub/declash-tournament/client/templates/TabRegistration.html"
+		"/C/Users/WilfredAdmin/Documents/GitHub/declash-tournament/client/declash-tournament.js"
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 36.0
 	},
 	"find_in_files":
 	{
@@ -1144,6 +1162,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"imagelocation",
+			"/api/picture",
+			"143",
+			"141",
+			"nav",
 			"unimplemented",
 			"getassignedfirst",
 			"ignore",
@@ -1266,12 +1289,7 @@
 			"checkInvariantsBeforeAssign",
 			"invariantchecker",
 			"declashapp",
-			"ManagementContextConstants",
-			"DeclashApp",
-			"managementcontextcons",
-			"client.globals",
-			"declashapp.client",
-			"managementcontextglobal"
+			"ManagementContextConstants"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1289,60 +1307,123 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "collections.js",
+					"file": "client/meteor-ds-medical-care.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 53,
+						"buffer_size": 4688,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								53,
-								53
+								3452,
+								3452
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3739.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "client/child.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1332,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								139,
+								139
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "client/meteor-ds-medical-care.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5036,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3958,
+								3958
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2447.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "meteor-ds-medical-care.html",
+					"buffer": 3,
+					"file": "StartupCollection.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 257,
+						"buffer_size": 1806,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								115,
-								115
+								341,
+								341
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.x": -0.0,
+						"translation.y": 11.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1411,6 +1492,14 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"start",
+				"StartupCollection.js"
+			],
+			[
+				"css",
+				"client\\meteor-ds-medical-care.css"
+			],
 			[
 				"valida",
 				"helpers\\ValidatorHelper.js"

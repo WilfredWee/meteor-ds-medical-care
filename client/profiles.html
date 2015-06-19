@@ -1,9 +1,23 @@
 <template name="profiles">
+<nav id="navbar-profiles" class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#"><img id="brandlogo" alt="Brand" src="/brand-logo.png"></a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul id="ul-profiles" class="nav navbar-nav navbar-right">
+        <li><a href="/">Dashboard</a></li>
+        <li><a href="/">Settings</a></li>
+        <li><a href="/">Support</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
 	<div class="container">
 	{{#each children}}
 		{{> child}}
 	{{/each}}
-	  <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#editChildModal">
+	  <button id="addnewprofilebtn" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#editChildModal">
     Add New Profile
   </button>
 	</div>
