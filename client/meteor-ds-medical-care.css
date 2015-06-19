@@ -70,7 +70,7 @@ html, body, .container{
 .site-wrapper-inner {
   display: table-cell;
   vertical-align: top;
-  background: url(' G2G-banner-new.png') no-repeat center center fixed; 
+  background: url(' G2G-banner-new.png') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -104,7 +104,7 @@ html, body, .container{
 .masthead-nav > li > a {
   padding-right: 0;
   padding-left: 0;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: bold;
   color: #000000; /* IE8 proofing */
   color: rgba(255,255,255,.75);
@@ -187,7 +187,7 @@ html, body, .container{
 	bottom: 0px;
 	position: absolute;
 	margin-left: 100px;
-	margin-bottom: 100px;					
+	margin-bottom: 100px;
 	text-align: right;
 	color: #FFFFFF;
 }
@@ -203,6 +203,15 @@ nav {
 	color: #000000;
 }
 
+.navbar-default {
+  margin-bottom: 0px;
+}
+
+#brandlogo {
+  margin-top: -19px;
+  height: 60px;
+}
+
 .btn-xlarge {
     padding: 10px 50px;
     font-size: 25px;
@@ -214,12 +223,15 @@ nav {
 
 #btn-login{
 	background-color: #0ce769;
+  width: 200px;
+  border-width: 2px;
 }
 
 #btn-register{
 	background-color: rgba(255, 255, 255, 0);
 	border-color: #FFFFFF;
 	border-width: 2px;
+  width: 200px;
 }
 
      /*edit bootstrap ui element*/
