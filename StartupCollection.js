@@ -9,7 +9,7 @@ Meteor.startup(function() {
     var parentId = Parents.insert(initialTestParent);
 
     var initialTestChild = {
-      firstName: "Andy",
+      firstName: "Sara",
       lastName: "Smith",
       dob: new Date("2005-10-05"),
       gender: "Female",

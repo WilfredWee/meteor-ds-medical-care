@@ -1,6 +1,7 @@
 /* CSS declarations go here */
 body{
-	background-color: #dfdfdf;
+	background-color: #ffffff;
+  padding-top: 50px;
 }
 
 html, body, .container{

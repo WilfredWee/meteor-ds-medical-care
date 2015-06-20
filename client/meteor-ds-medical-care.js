@@ -32,7 +32,8 @@ if (Meteor.isClient) {
   Template.login.events({
     'click #submitLogin': function(event){
       event.preventDefault();
-      window.location.href = '/profiles';
+      window.location.href = "/profiles";
+      // Router.go("/profiles");
     }
   });
 
@@ -121,6 +122,11 @@ if (Meteor.isClient) {
       // var parent = $(event.target).closest('.row');
       // var child_id = parent.find('#child_id').text();
       // Children.update({_id: child_id}, {$set: {firstName: "Roberta"}});
+    },
+
+    "click #btn-visual-overview": function(event) {
+      event.preventDefault();
+      Router.go("visual");
     }
   });
 
